@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="3" total="5" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-01T12:53:47 EET" name="Default suite" finished-at="2024-02-01T12:53:55 EET" duration-ms="7934">
+  <suite started-at="2024-02-04T12:07:06 EET" name="Default suite" finished-at="2024-02-04T12:07:21 EET" duration-ms="14977">
     <groups>
     </groups>
-    <test started-at="2024-02-01T12:53:47 EET" name="Default test" finished-at="2024-02-01T12:53:55 EET" duration-ms="7934">
+    <test started-at="2024-02-04T12:07:06 EET" name="Default test" finished-at="2024-02-04T12:07:21 EET" duration-ms="14977">
       <class name="MyTestCases.SignUp">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:MyTestCases.SignUp@14f5da2c]" started-at="2024-02-01T12:53:47 EET" name="SetUp" finished-at="2024-02-01T12:53:47 EET" duration-ms="190" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:MyTestCases.SignUp@53f48368]" started-at="2024-02-04T12:07:06 EET" name="SetUp" finished-at="2024-02-04T12:07:06 EET" duration-ms="173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="SignUp()[pri:0, instance:MyTestCases.SignUp@14f5da2c]" started-at="2024-02-01T12:53:47 EET" name="SignUp" finished-at="2024-02-01T12:53:55 EET" duration-ms="7699" status="PASS">
+        <test-method signature="Counter()[pri:4, instance:MyTestCases.SignUp@53f48368]" started-at="2024-02-04T12:07:06 EET" name="Counter" finished-at="2024-02-04T12:07:10 EET" duration-ms="3655" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SignUp -->
+        </test-method> <!-- Counter -->
+        <test-method signature="addOneRandomItem()[pri:5, instance:MyTestCases.SignUp@53f48368]" started-at="2024-02-04T12:07:10 EET" name="addOneRandomItem" finished-at="2024-02-04T12:07:21 EET" duration-ms="11103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addOneRandomItem -->
       </class> <!-- MyTestCases.SignUp -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
